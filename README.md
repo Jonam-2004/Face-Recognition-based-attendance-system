@@ -25,9 +25,9 @@ This project is a Face Recognition-based Attendance System using OpenCV and Flas
 
 ## Installation
 1.Clone the repository.
-Copy code
+```bash
 git clone https://github.com/yourusername/face-recognition-attendance.git
-cd face-recognition-attendance
+# cd face-recognition-attendance
 2.Install the required packages.
 bash
 pip install -r requirements.txt
@@ -35,20 +35,20 @@ pip install -r requirements.txt
 
 ## Usage
 Start the Server
-bash
+```bash
 python app.py
 The app will run on http://127.0.0.1:5000/ by default.
 
 ## Adding a New User:
 
-Navigate to /add in the app.
-Provide a unique username and ID.
-The camera will capture images for training the model. Make sure the user’s face is clear during image capture.
+-Navigate to /add in the app.
+-Provide a unique username and ID.
+-The camera will capture images for training the model. Make sure the user’s face is clear during image capture.
 
 ## Start Attendance:
-Navigate to /start.
-The camera will begin capturing frames and detecting faces.
-Recognized faces will be marked in the attendance record with entry and exit times.
+-Navigate to /start.
+-The camera will begin capturing frames and detecting faces.
+-Recognized faces will be marked in the attendance record with entry and exit times.
 
 ## View Attendance Records:
 
