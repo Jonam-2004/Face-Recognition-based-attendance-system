@@ -60,38 +60,38 @@ Attendance data is stored as a CSV file in the Attendance/ folder.
 You can also view the records directly in the UI.
 
 ## Project Workflow
-Face Detection: The system uses Haar Cascades for face detection.
-Face Recognition: A K-Nearest Neighbors (KNN) model is used to recognize faces. It is trained on captured face images for each user.
-Attendance Logging: For each recognized face, the system logs entry and exit times. If the user stays for the required duration, they are marked "Present."
+-Face Detection: The system uses Haar Cascades for face detection.
+-Face Recognition: A K-Nearest Neighbors (KNN) model is used to recognize faces. It is trained on captured face images for each user.
+-Attendance Logging: For each recognized face, the system logs entry and exit times. If the user stays for the required duration, they are marked "Present."
 
 
 ## Code Overview
-app.py: Main file containing all the routes and core logic for the application.
-train_model(): Function to train the KNN model using the captured face images.
-extract_faces(): Detects faces in an image using Haar Cascades.
-add_attendance(): Logs the attendance of identified individuals, including entry and exit times.
+-app.py: Main file containing all the routes and core logic for the application.
+-train_model(): Function to train the KNN model using the captured face images.
+-extract_faces(): Detects faces in an image using Haar Cascades.
+-add_attendance(): Logs the attendance of identified individuals, including entry and exit times.
 
 
 ## Example Data
 Sample attendance records are stored in CSV format in the Attendance/ folder. Each entry includes:
 
-Name: Name of the recognized individual.
-Roll: Unique ID.
-Entry Time: The time when the individual is first recognized.
-Exit Time: The time when the individual is last recognized.
-Present Hours: The total time in minutes between entry and exit.
-Status: Attendance status based on duration ("Present," "Absent," or "Notable").
+-Name: Name of the recognized individual.
+-Roll: Unique ID.
+-Entry Time: The time when the individual is first recognized.
+-Exit Time: The time when the individual is last recognized.
+-Present Hours: The total time in minutes between entry and exit.
+-Status: Attendance status based on duration ("Present," "Absent," or "Notable").
 
 
 ## Dependencies
 The project uses the following libraries:
 
-OpenCV: For face detection and real-time video capture.
-Flask: For creating the web-based interface.
-NumPy: For numerical operations on image data.
-pandas: For handling CSV files.
-scikit-learn: For KNN-based face recognition.
-joblib: For saving and loading the trained model.
+-OpenCV: For face detection and real-time video capture.
+-Flask: For creating the web-based interface.
+-NumPy: For numerical operations on image data.
+-pandas: For handling CSV files.
+-scikit-learn: For KNN-based face recognition.
+-joblib: For saving and loading the trained model.
 
 
 ## Future Improvements
