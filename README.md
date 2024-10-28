@@ -25,19 +25,22 @@ This project is a Face Recognition-based Attendance System using OpenCV and Flas
 
 ## Installation
 1.**Clone the repository.**
-  bash
+  ```
       git clone https://github.com/yourusername/face-recognition-attendance.git
       cd face-recognition-attendance
-
+```
 2.**Install the required packages.**
-  bash
+  ```
   pip install -r requirements.txt
-3.Make sure to download and add the haarcascade_frontalface_default.xml file to your project directory for face detection.
+```
+3.**Make sure to download and add the haarcascade_frontalface_default.xml file to your project directory for face detection.**
 
 ## Usage
 Start the Server
 bash
+```
 python app.py
+```
 The app will run on http://127.0.0.1:5000/ by default.
 
 ## Adding a New User:
