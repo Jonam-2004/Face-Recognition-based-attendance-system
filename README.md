@@ -30,9 +30,7 @@ This project is a Face Recognition-based Attendance System using OpenCV and Flas
       cd face-recognition-attendance
 ```
 2.**Install the required packages.**
-  ```
-  pip install -r requirements.txt
-```
+
 3.**Make sure to download and add the haarcascade_frontalface_default.xml file to your project directory for face detection.**
 
 ## Usage
