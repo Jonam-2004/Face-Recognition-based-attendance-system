@@ -30,7 +30,7 @@ This project is a Face Recognition-based Attendance System using OpenCV and Flas
 ## Installation
 1.**Clone the repository and navigate to the project folder.**
   ```
-      git clone https://github.com/yourusername/face-recognition-attendance.git
+      git clone https://github.com/Jonam-2004/Face-Recognition-based-attendance-system.git
       cd face-recognition-attendance
 ```
 2.**Install the required packages.**
