@@ -6,7 +6,11 @@ This project is a Face Recognition-based Attendance System using OpenCV and Flas
 - **Attendance Logging**: Automatically logs attendance by recording entry and exit times, as well as the duration of presence.
 - **Interactive UI**: Web-based interface built with Flask to view attendance records and manage users.
 - **Real-time Attendance**: Uses live camera feed for face recognition and attendance tracking.
-
+- **Contactless Attendance**: Utilizes a webcam to capture faces and log attendance.
+- **Real-Time Recognition**: Identifies and classifies faces in real-time.
+- **Dynamic Status Updates**: Categorizes attendees as "Present," "Notable," or "Absent" based on time spent.
+- **User Management**: Provides an interface to add, manage, and display users.
+- **Daily Logs**: Stores attendance records in CSV files for easy access.
 
 ## Folder Structure
 - `Attendance/` - Stores daily attendance records in CSV format.
@@ -24,7 +28,7 @@ This project is a Face Recognition-based Attendance System using OpenCV and Flas
 - joblib
 
 ## Installation
-1.**Clone the repository.**
+1.**Clone the repository and navigate to the project folder.**
   ```
       git clone https://github.com/yourusername/face-recognition-attendance.git
       cd face-recognition-attendance
@@ -101,5 +105,13 @@ Implement a more robust face recognition model (e.g., deep learning-based).
 Add more sophisticated attendance status tracking.
 Integrate with a database for persistent storage.
 
+## Authors
+- [Manoj S](https://github.com/Jonam-2004)
+- [Abishek S](https://github.com/Abishek9342)
+- [Prasanna Venkatesh S](https://github.com/anna123venkat)
+
+## Acknowledgments
+This project was completed as part of the B.Tech program in Artificial Intelligence and Data Science at Mepco Schlenk Engineering College, under the guidance of Dr. E. Emerson Nithiyaraj and Dr. J. Angela Jennifa Sujana.
+
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE).
